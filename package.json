@@ -1,0 +1,50 @@
+{
+  "name": "terk-cardsforhumanity",
+  "version": "1.0.0",
+  "description": "cards for humanity game with express, typescript and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkterungwa16/terk-cardsforhumanity.git"
+  },
+  "keywords": [
+    "cards",
+    "for",
+    "humanity",
+    "games",
+    "cards"
+  ],
+  "author": "Terungwa Kombol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkterungwa16/terk-cardsforhumanity/issues"
+  },
+  "homepage": "https://github.com/rkterungwa16/terk-cardsforhumanity#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "@types/winston": "^2.4.4",
+    "jest": "^30.1.1",
+    "jest-environment-node": "^30.1.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
