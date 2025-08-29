@@ -36,7 +36,7 @@ export class HomeGetController {
     next: NextFunction,
   ) => {
     try {
-      res.redirect("/#!/play");
+      res.redirect("/#/play");
     } catch (err) {
       next(err);
     }
