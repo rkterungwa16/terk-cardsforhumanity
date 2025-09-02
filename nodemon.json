@@ -3,6 +3,6 @@
       "src/"
   ],
   "restartable": "rs",
-  "exec": "cross-env NODE_ENV=development ts-node src",
+  "exec": "cross-env NODE_ENV=development ts-node --project tsconfig.server.json src/",
   "ext": "ts"
 }

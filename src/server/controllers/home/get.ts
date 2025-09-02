@@ -21,6 +21,7 @@ export class HomeGetController {
     next: NextFunction,
   ) => {
     try {
+      console.log('RENDER HOME PAGE___')
       res.render("index", {
         title: "Home Page",
         message: "",
