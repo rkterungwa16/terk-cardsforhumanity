@@ -1,8 +1,6 @@
 {
-  "watch": [
-      "src/"
-  ],
+  "watch": ["simple-server.js"],
   "restartable": "rs",
-  "exec": "cross-env NODE_ENV=development ts-node --project tsconfig.server.json src/",
+  "exec": "cross-env NODE_ENV=development ts-node --project tsconfig.server.json simple-server.js",
   "ext": "ts"
 }
